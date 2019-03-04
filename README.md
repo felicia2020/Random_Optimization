@@ -10,8 +10,8 @@ The objective was to test four random search approaches:
 Using four problems:
 
 * Training the weights of a neural network
-* Flipflop
+* OneMax
 * Knapsack
-* Travelling Salesperson
+* Four Peaks
 
 The code is broken up into a Jupyter Notebook for each problem, with basic results described.  Supporting helper functions are contained in utilities.py and utilities_hw2.py.  Search algorithms are implemented in a modified version of the mlrose package, which is included in mlrose_local and must be intalled locally (pip -e ./mlrose_local)
